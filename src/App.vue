@@ -1,18 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+      <p>Hello Vue!</p>
+      <header/>
+      <v-main-wrapper/>
+      <footer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import './assets/styles/styles.scss'
+
+import  footer from './components/footer.vue'
+import  header from './components/header.vue'
+import vMainWrapper from './components/v-main-wrapper.vue'
+
 
 export default {
   name: "App",
   components: {
-    HelloWorld
-  }
+      vMainWrapper,
+      footer,
+      header
+  },
+    data(){
+      return {
+
+      }
+    },
+    methods:{
+
+    }
 };
 </script>
 

@@ -1,0 +1,86 @@
+@import './variables.scss';
+.v-catalog{
+  .button_Cart{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 120px;
+    padding: 7px;
+    border: solid 2px lightseagreen;
+    transition: .5s all;
+    color: lightseagreen;
+    &:hover{
+      border: 2px solid lightskyblue ;
+      background-image: linear-gradient(to right, #1877FF , lightseagreen) ;
+      //border-top-right-radius: 20px;
+      //border-bottom-left-radius: 20px;
+      color: white;
+      letter-spacing: 2px;
+      //padding: 10px;
+      transform: translate(-20px);
+
+    }
+  }
+}
+.button_cart{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  width: 120px;
+  padding: 7px;
+  border: solid 2px lightseagreen;
+  transition: .5s all;
+  color: lightseagreen;
+  &:hover{
+    border: 2px solid lightskyblue ;
+    background-image: linear-gradient(to right, #1877FF , lightseagreen) ;
+    //border-top-right-radius: 20px;
+    //border-bottom-left-radius: 20px;
+    color: white;
+    letter-spacing: 2px;
+    width: 150px;
+    //padding: 10px;
+    transform: translate(-20px);
+
+  }
+}
+.v-catalog-item-in_button{
+
+  width: 120px;
+  padding: 7px;
+  border: solid 2px lightseagreen;
+  transition: .5s all;
+  color: lightseagreen;
+  &:hover{
+    border: 2px solid lightskyblue ;
+    background-image: linear-gradient(to right, #1877FF , lightseagreen) ;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+    box-shadow: 0 8px 10px 0 #e0e0e0;
+    width: 150px;
+    cursor: pointer;
+  }
+  &:focus{
+    border: 2px solid #e0e0e0;
+    outline: none;
+  }
+}
+.quantity_btn{
+  border: 1px solid lightseagreen;
+  color: lightseagreen;
+  cursor: pointer;
+  border-radius: 50% ;
+  padding:6px;
+
+  margin: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  &:active{
+    box-shadow:0 0 8px 0 #999;
+
+  }
+
+}

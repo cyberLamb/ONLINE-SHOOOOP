@@ -1,10 +1,16 @@
 <template>
-    $END$
+    <div id="header">
+        <router-link></router-link>
+    </div>
 </template>
 
 <script>
     export default {
-        name: "header"
+        name: "header",
+        components: {},
+        data(){
+            return {}
+        }
     }
 </script>
 
